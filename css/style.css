@@ -4,6 +4,12 @@
 
 }
 
-.index__h2--p{
+.index__h2--green{
     color: green;
+    margin-left: 5px;
+}
+
+.index__div{
+    display: flex;
+    align-items: center;
 }
