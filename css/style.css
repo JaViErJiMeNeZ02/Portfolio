@@ -1,18 +1,25 @@
 body{
-    width: 1370px;
     margin: 0 auto;
+    height: 100%;
 }
 .container1{
     background-color: black;
     color: white;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+     width: 100%;
+
+
 }
 
 .aside{
     width: 30%;
     min-width: 30%;
     position: fixed;
+    justify-content: center;
     text-align: center;
     top: 0px;
     left: 0px;
@@ -63,10 +70,13 @@ body{
 /*PARTE DOS*/
 
 .container__2{
-    width: 69%;
-    height: 100%;
-    padding: 150px 50px;
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    width: 100%;
+    padding: 200px 100px;
     margin: 0px 0px 0px 400px;
+   
 
 }
 .index__h2--green{
@@ -88,4 +98,74 @@ body{
     justify-content: center;
     align-items: center;
     background-color: grey;
+}
+
+/*PARTE 3*/
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+.container2__1{
+    margin-bottom: 100px;
+}
+.container2__div{
+    display: flex;
+}
+.container2__h1{
+    margin-right: 8px;
+}
+.container2__h1--green{
+    color: green;
+}
+.container2__ul--div{
+    display: flex;
+    align-items: center;
+}
+.container2__li{
+    margin-right: 8px;
+}
+.container2__ul--p{
+    color: green;
+}
+.container2__a{
+    border: 1px solid grey;
+    background-color: grey;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.container2__section{
+    display: flex;
+}
+.container2__article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid grey;
+    background-color: grey;
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+
+}
+.container2__h2--green{
+    font-size: 45px;
+    color: green;
+    justify-content: baseline;
+}
+.container2__h2{
+    font-size: 25px;
+    
 }
