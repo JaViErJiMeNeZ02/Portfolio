@@ -1,9 +1,74 @@
+body{
+    width: 1370px;
+    margin: 0 auto;
+}
 .container1{
     background-color: black;
     color: white;
+    margin: 0 auto;
+    display: flex;
+}
+
+.aside{
+    width: 30%;
+    min-width: 30%;
+    position: fixed;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    height: 550px;
+    padding: 80px 0px;
+    background-color: rgb(25, 24, 24);
+    height: 100%;
+}
+
+.aside__article{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 
 }
 
+.aside__img{
+    width: 65px;
+    border-radius: 50px;
+    border: 5px solid rgb(21, 193, 21);
+}
+
+.aside__div{
+    border: 1px solid grey;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: gray;
+
+
+}
+
+.aside__div--a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+
+}
+
+
+
+/*PARTE DOS*/
+
+.container__2{
+    width: 69%;
+    height: 100%;
+    padding: 150px 50px;
+    margin: 0px 0px 0px 400px;
+
+}
 .index__h2--green{
     color: green;
     margin-left: 5px;
@@ -12,4 +77,15 @@
 .index__div{
     display: flex;
     align-items: center;
+}
+.index__p{
+    width: 700px;
+}
+.index__button{
+    width: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
 }
