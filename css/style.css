@@ -1,6 +1,3 @@
-*{
-   
-}
 
 body{
     margin: 0 auto;
@@ -34,7 +31,6 @@ body{
     height: 100vh;
     padding: 80px 0px;
     background-color: rgb(25, 24, 24);
-    height: 100vh;
 }
 
 .aside__article{
@@ -120,6 +116,13 @@ body{
     align-items: center;
     background-color: grey;
 }
+.index__button--p{
+    margin-left: 5px;
+}
+.icono1{
+    font-size: 20px;
+    color: green;
+}
 
 /*PARTE 3*/
 
@@ -197,7 +200,10 @@ body{
 .container2__h2{
     font-size: 25px;  
 }
-
+.icono2{
+    font-size: 20px;
+    color: green;
+}
 
 /*PARTE 4*/
 .container3{
@@ -337,6 +343,7 @@ body{
 }
 .container5__li{
     list-style: none;
+    margin-right: 10px;
 }
 .container5__ul--p{
     font-size: 25px;
@@ -379,4 +386,9 @@ body{
     color: white;
     text-decoration: none;
     font-size: 25px;
+}
+   
+.icono3{
+    font-size: 25px;
+    color: green;
 }
